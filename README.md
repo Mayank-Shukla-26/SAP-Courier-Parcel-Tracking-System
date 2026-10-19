@@ -1,62 +1,46 @@
 # SAP-Based Courier & Parcel Delivery Tracking System
 
-A SAP ABAP-based courier and parcel delivery management system developed using classic SAP GUI technologies.
+## Project Overview
 
-## 📌 Project Overview
+The SAP-Based Courier & Parcel Delivery Tracking System is a Classical ABAP project developed to manage courier and parcel information and track delivery status.
 
-This project manages the complete parcel booking and tracking process. It allows users to book parcels, calculate delivery charges, update parcel status, track status history, generate ALV reports, and print courier delivery receipts.
+The project uses SAP ABAP and the ABAP Dictionary to organize data, process user inputs, display reports, and generate courier-related forms.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - SAP ABAP
+- SAP GUI
+- Eclipse with ABAP Development Tools (ADT)
+- ABAP Dictionary (SE11)
 - Module Pool Programming
-- ABAP Dictionary (DDIC)
 - ALV Reports
 - Smart Forms
-- Open SQL
-- Custom Database Tables
-- SAP GUI
 
-## ✨ Key Features
+## Features Implemented
 
-- Customer and delivery agent management
-- Parcel booking through Module Pool screens
-- Automatic Parcel ID generation
-- Delivery charge calculation based on weight, distance, and service type
-- Parcel status management
-- Status update and cancellation
-- Complete parcel status audit trail
-- ALV-based parcel tracking report
-- Filtering by Parcel ID, Agent, Status, and Service Type
-- Smart Form-based courier delivery receipt
-- Database validation for customers and delivery agents
+- Custom database tables for Customer, Courier Agent, Parcel, and Status Log.
+- Custom domains and data elements.
+- Primary keys, foreign keys, and table relationships.
+- Module Pool screens with PBO and PAI processing.
+- ALV report for displaying project data.
+- Smart Form for courier/parcel labels or receipts.
 
-## 🗄️ Database Tables
+## Project Package
 
-| Table | Purpose |
-|---|---|
-| `ZMAYANK_CUSTOMER` | Stores customer information |
-| `ZMAYANK_CRAGENT` | Stores delivery agent information |
-| `ZMAYANK_PARCEL` | Stores parcel and delivery information |
-| `ZMAYANK_STATLOG` | Stores parcel status history |
+`Z_MAYANK_COURIER_TRACKING_PROJ`
 
-## 🔄 Parcel Workflow
+## Project Status
 
-```text
-Customer
-   ↓
-Parcel Booking
-   ↓
-Delivery Charge Calculation
-   ↓
-BOOKED
-   ↓
-TRANSIT
-   ↓
-DELIVERED / CANCELLED
-   ↓
-Status Audit Log
-   ↓
-ALV Tracking Report
-   ↓
-Smart Form Delivery Receipt
+The Classical ABAP components listed above have been developed as part of the project. Modern ABAP features such as CDS Views, OData services, and SAP Fiori are planned as future enhancements.
+
+## Screenshots
+
+Screenshots of the database tables, application screens, ALV report, and Smart Form will be added to the `Screenshots` folder.
+
+## Author
+
+Mayank Shukla
+
+## Note
+
+This repository documents the project implementation and supporting materials. The SAP system and required development environment may be needed to run the ABAP objects.

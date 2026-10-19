@@ -44,3 +44,26 @@ Mayank Shukla
 ## Note
 
 This repository documents the project implementation and supporting materials. The SAP system and required development environment may be needed to run the ABAP objects.
+
+## Project Screenshots
+
+### 1. Database Tables
+![Database Tables](Screenshots/01-database-tables.png)
+
+### 2. Parcel Table Structure
+![Parcel Table Structure](Screenshots/02-parcel-table-structure.png)
+
+### 3. Main Application Screen
+![Main Application](Screenshots/03-module-pool-screen.png)
+
+### 4. Parcel Booking Screen
+![Parcel Booking](Screenshots/04-book-parcel-screen.png)
+
+### 5. Update Parcel Status
+![Update Parcel Status](Screenshots/05-update-parcel-status.png)
+
+### 6. ALV Parcel Tracking Report
+![ALV Parcel Report](Screenshots/06-alv-parcel-report.png)
+
+### 7. Generated Courier Receipt
+![Courier Receipt](Screenshots/07-courier-receipt-output.png)
